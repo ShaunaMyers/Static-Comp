@@ -1,0 +1,11 @@
+header {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+}
+
+.recipient-card {
+  border: 2px solid red;
+}
