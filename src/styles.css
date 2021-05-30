@@ -16,17 +16,28 @@ nav {
 }
 
 .cards {
+  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   /* justify-content: space-around; */
 }
 
 .recipient-card {
+  align-items: center;
   border: 2px solid red;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
   margin: 1%;
   /* padding: 2%; */
+}
+
+.recipient-info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
 }
 
 button {
