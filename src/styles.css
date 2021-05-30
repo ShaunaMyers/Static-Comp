@@ -2,6 +2,8 @@ body {
   margin: 0;
 }
 
+/* ------Header------ */
+
 header {
   background-color: #424C55;
   display: flex;
@@ -10,12 +12,16 @@ header {
   padding: 0 3%;
 }
 
-.header-image {
+/* .header-image {
   margin-right: 1%;
-}
+} */
 
 .shares-btn {
   width: 100px;
+}
+
+.playlists-btn {
+  padding-left: 14%;
 }
 
 .personal-videos-btn {
@@ -23,11 +29,10 @@ header {
 }
 
 .admin-user-btn {
-  display: flex;
   align-items: center;
-  /* justify-content: center;
-  text-align: center; */
-  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  width: 175px;
 }
 
 nav {
