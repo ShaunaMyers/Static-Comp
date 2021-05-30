@@ -40,6 +40,12 @@ nav {
   padding: 2%;
 }
 
+.recipient-card-top {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4%;
+}
+
 button {
   background: transparent;
   border: none;
