@@ -18,13 +18,25 @@ nav {
 .cards {
   display: flex;
   flex-wrap: wrap;
+  /* justify-content: space-around; */
 }
 
 .recipient-card {
   border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 1%;
+  /* padding: 2%; */
 }
 
 button {
   background: transparent;
   border: none;
+}
+
+@media screen and (max-width: 813px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
 }
