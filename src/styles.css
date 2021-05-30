@@ -1,14 +1,57 @@
+body {
+  margin: 0;
+}
+
 header {
+  background-color: #424C55;
   display: flex;
   justify-content: space-between;
+  height: 150px;
+  padding: 0 3%;
+}
+
+.header-image {
+  margin-right: 1%;
+}
+
+.shares-btn {
+  width: 100px;
+}
+
+.personal-videos-btn {
+  width: 175px;
+}
+
+.admin-user-btn {
+  display: flex;
+  align-items: center;
+  /* justify-content: center;
+  text-align: center; */
+  width: 200px;
 }
 
 nav {
+  /* color: white; */
   display: flex;
   justify-content: space-around;
+  width: 600px;
+}
+
+nav > button {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div > button {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .right-header {
+  color: white;
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -20,17 +63,14 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* justify-content: space-around; */
 }
 
 .recipient-card {
   align-items: center;
   border: 2px solid red;
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
   margin: 1%;
-  /* padding: 2%; */
+  padding: 2%;
+  width: 265px;
 }
 
 .recipient-info {
@@ -55,5 +95,9 @@ button {
   nav {
     display: flex;
     flex-direction: column;
+  }
+
+  .recipient-card {
+    width: 300px;
   }
 }
