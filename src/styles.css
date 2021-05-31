@@ -1,5 +1,6 @@
 body {
   margin: 0;
+
 }
 
 /* ------Header------ */
@@ -12,16 +13,14 @@ header {
   padding: 0 3%;
 }
 
-/* .header-image {
-  margin-right: 1%;
-} */
-
 .shares-btn {
   width: 100px;
 }
 
 .playlists-btn {
-  padding-left: 14%;
+  display: flex;
+  justify-content: space-around;
+  width: 150px;
 }
 
 .personal-videos-btn {
@@ -74,8 +73,8 @@ div > button {
   align-items: center;
   border: 2px solid red;
   margin: 1%;
-  padding: 2%;
-  width: 265px;
+  /* padding: 2%; */
+  width: 300px;
 }
 
 .recipient-info {
@@ -86,9 +85,19 @@ div > button {
 }
 
 .recipient-card-top {
+  background-image: url("../assets/recipient-card-photo.jpg");
   display: flex;
   justify-content: space-between;
-  margin: 0 4%;
+  /* margin-right: 100px; */
+  /* margin: 0 4%; */
+  height: 300px;
+}
+
+.views {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* height: 20px; */
 }
 
 button {
@@ -97,6 +106,13 @@ button {
 }
 
 @media screen and (max-width: 813px) {
+
+  .cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
   nav {
     display: flex;
     flex-direction: column;
