@@ -20,8 +20,9 @@ header {
 
 .playlists-btn {
   display: flex;
-  justify-content: space-around;
-  width: 150px;
+  justify-content: space-between;
+  margin: 0;
+  width: 115px;
 }
 
 .personal-videos-btn {
@@ -51,8 +52,8 @@ nav > button {
 
 div > button {
   color: white;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 .right-header {
@@ -120,6 +121,11 @@ button {
   border: none;
 }
 
+a {
+  margin-top: 4%;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 813px) {
 
   .cards {
@@ -135,5 +141,6 @@ button {
 
   .recipient-card {
     width: 300px;
+    margin-bottom: 3%;
   }
 }
