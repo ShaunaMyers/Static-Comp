@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #F7F6DF;
 
 }
 
@@ -62,7 +63,9 @@ div > button {
   justify-content: center;
 }
 
+/* ------Main------ */
 .cards {
+  /* background-color:#F7F6DF; */
   border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
@@ -70,6 +73,7 @@ div > button {
 }
 
 .recipient-card {
+  background-color: #F5F5F5; 
   align-items: center;
   border: 2px solid red;
   margin: 1%;
@@ -93,10 +97,16 @@ div > button {
   height: 300px;
 }
 
+.forward-arrow-btn {
+  height: 40px;
+  margin-left: 3%;
+}
+
 .views {
   align-items: center;
   display: flex;
   flex-direction: column;
+  margin-right: 3%;
   /* height: 20px; */
 }
 
