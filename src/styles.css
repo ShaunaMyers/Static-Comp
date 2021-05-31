@@ -64,20 +64,24 @@ div > button {
 }
 
 /* ------Main------ */
+
+h2 {
+  font-size: 40px;
+  margin-left: 5%;
+}
+
 .cards {
-  /* background-color:#F7F6DF; */
-  border: 2px solid blue;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .recipient-card {
-  background-color: #F5F5F5; 
+  background-color: #F5F5F5;
+  border-radius: 1%;
+  box-shadow: rgba(0,0,0,0.8) 0 0 10px;
   align-items: center;
-  border: 2px solid red;
   margin: 1%;
-  /* padding: 2%; */
   width: 300px;
 }
 
@@ -90,10 +94,9 @@ div > button {
 
 .recipient-card-top {
   background-image: url("../assets/recipient-card-photo.jpg");
+  border-radius: 1%;
   display: flex;
   justify-content: space-between;
-  /* margin-right: 100px; */
-  /* margin: 0 4%; */
   height: 300px;
 }
 
