@@ -101,17 +101,19 @@ h2 {
   height: 300px;
 }
 
-.forward-arrow-btn {
-  height: 40px;
-  margin-left: 3%;
+.views-text, .views-number {
+  margin: 0;
+  padding: 0;
 }
 
 .views {
   align-items: center;
+  color: black;
   display: flex;
   flex-direction: column;
-  font-size: 20px;
-  margin-right: 3%;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 8% 6%;
   height: 20px;
   padding: 0;
 }
@@ -119,6 +121,22 @@ h2 {
 button {
   background: transparent;
   border: none;
+  cursor: pointer;
+}
+
+.forward-arrow-btn {
+  background: white;
+  border-radius: 50%;
+  height: 90px;
+  margin-left: 6%;
+  /* width: 150px; */
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6%;
+  cursor: pointer;
 }
 
 a {
