@@ -9,6 +9,9 @@ The static comp challenge was an opportunity to flex the HTML/CSS muscle! The go
 
 ## The finished product:
 
+<img width="544" alt="Screen Shot 2021-05-31 at 7 19 38 PM" src="https://user-images.githubusercontent.com/74690897/120257532-4751b080-c245-11eb-9c1a-6ca0d4ac8b89.png">
+
+
 <img width="1438" alt="Screen Shot 2021-05-31 at 7 13 55 PM" src="https://user-images.githubusercontent.com/74690897/120257117-774c8400-c244-11eb-8d29-41544b6c6965.png">
 
 ## Special attention was paid to responsive, mobile first design:
