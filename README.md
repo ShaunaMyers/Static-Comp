@@ -9,4 +9,4 @@ The static comp challenge was an opportunity to flex the HTML/CSS muscle! The go
 
 ## The finished product:
 
-<img width="1440" alt="Screen Shot 2021-05-31 at 3 54 04 PM" src="https://user-images.githubusercontent.com/74690897/120247523-96d5b380-c228-11eb-838b-8a97d7abfc48.png">
+<img width="1438" alt="Screen Shot 2021-05-31 at 7 13 55 PM" src="https://user-images.githubusercontent.com/74690897/120257117-774c8400-c244-11eb-8d29-41544b6c6965.png">
