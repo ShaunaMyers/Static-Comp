@@ -1,3 +1,4 @@
+<img width="501" alt="Screen Shot 2021-05-31 at 7 16 00 PM" src="https://user-images.githubusercontent.com/74690897/120257250-baa6f280-c244-11eb-9420-bb41d1c494ff.png">
 # Static-Comp
 
 The static comp challenge was an opportunity to flex the HTML/CSS muscle! The goal was to recreate a webpage based off of a provided static comp. Some creative license was allowed, however the objective was to build something that respects the integrity of the original design. It is important to focus on building out comps that reflect the designer’s choice in layout, spacing, font, imagery, and color to the smallest detail.
